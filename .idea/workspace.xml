@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f9ba3b9-0951-4a9f-b25b-53841ee8ac86" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/partials/products/_product.slim" beforeDir="false" afterPath="$PROJECT_DIR$/source/partials/products/_product.slim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/product.html.slim" beforeDir="false" afterPath="$PROJECT_DIR$/source/product.html.slim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stylesheets/demo/base/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/stylesheets/demo/base/_colors.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stylesheets/demo/shared/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/stylesheets/demo/shared/_footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/index.html.slim" beforeDir="false" afterPath="$PROJECT_DIR$/source/index.html.slim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/partials/shared/_header-primary.slim" beforeDir="false" afterPath="$PROJECT_DIR$/source/partials/shared/_header-primary.slim" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,11 +31,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/stylesheets/demo/shared/_footer.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
+            <state relative-caret-position="237">
               <caret line="58" column="4" lean-forward="true" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/index.html.slim">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/partials/shared/_header-primary.slim">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -101,12 +116,14 @@
         <option value="$PROJECT_DIR$/source/partials/products/_product.slim" />
         <option value="$PROJECT_DIR$/source/stylesheets/demo/base/_colors.scss" />
         <option value="$PROJECT_DIR$/source/stylesheets/demo/shared/_footer.scss" />
+        <option value="$PROJECT_DIR$/source/index.html.slim" />
+        <option value="$PROJECT_DIR$/source/partials/shared/_header-primary.slim" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1612" />
-    <option name="y" value="420" />
+    <option name="x" value="1628" />
+    <option name="y" value="436" />
     <option name="width" value="2253" />
     <option name="height" value="939" />
   </component>
@@ -131,6 +148,12 @@
               <item name="stones" type="b2602c69:ProjectViewProjectNode" />
               <item name="stones" type="462c0819:PsiDirectoryNode" />
               <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stones" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stones" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
               <item name="layouts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -150,6 +173,13 @@
               <item name="stones" type="b2602c69:ProjectViewProjectNode" />
               <item name="stones" type="462c0819:PsiDirectoryNode" />
               <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="partials" type="462c0819:PsiDirectoryNode" />
+              <item name="shared" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stones" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stones" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
               <item name="posts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -164,14 +194,6 @@
               <item name="source" type="462c0819:PsiDirectoryNode" />
               <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="stones" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stones" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="stones" type="b2602c69:ProjectViewProjectNode" />
@@ -215,15 +237,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1570771942343</updated>
-      <workItem from="1570771943727" duration="1040000" />
+      <workItem from="1570771943727" duration="1316000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1040000" />
+    <option name="totallyTimeSpent" value="1316000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1612" y="420" width="2253" height="939" extended-state="0" />
+    <frame x="1628" y="436" width="2253" height="939" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
@@ -302,8 +324,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/source/stylesheets/demo/shared/_footer.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
+        <state relative-caret-position="237">
           <caret line="58" column="4" lean-forward="true" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/index.html.slim">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/partials/shared/_header-primary.slim">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
         </state>
       </provider>
     </entry>
